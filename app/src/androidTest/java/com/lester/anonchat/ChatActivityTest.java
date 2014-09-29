@@ -24,7 +24,7 @@ public class ChatActivityTest {
                 .create().get();
     }
     @Test
-    public void buutonClickShouldSendMessage(){
+    public void buttonClickShouldSendMessage(){
         Button button = (Button) chatActivity.findViewById(R.id.chatSendButton);
         EditText messageEdit = (EditText) chatActivity.findViewById(R.id.messageEdit);
         String messageToSend = "Some message";
